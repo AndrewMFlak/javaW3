@@ -10,3 +10,5 @@ public class MyClass {
 //***Note - java is case sensitive.  MyClass and myclass will be treated as different by Java */
 
 // ALSO important fact that name of file MUST equal the name of class
+
+// Every program must have a Main() method.
