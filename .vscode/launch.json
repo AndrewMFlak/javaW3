@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Casting",
+            "request": "launch",
+            "mainClass": "Casting"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Boolean",
+            "request": "launch",
+            "mainClass": "Boolean"
+        }
+    ]
+}
