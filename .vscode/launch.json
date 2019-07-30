@@ -2,6 +2,25 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ThisIsAMethod",
+            "request": "launch",
+            "mainClass": "ThisIsAMethod",
+            "projectName": "javaW3_323538da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Random",
+            "request": "launch",
+            "mainClass": "Random"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Operator",
+            "request": "launch",
+            "mainClass": "Operator"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Casting",
             "request": "launch",
             "mainClass": "Casting"
