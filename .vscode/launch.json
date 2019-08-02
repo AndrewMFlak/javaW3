@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Switch",
+            "request": "launch",
+            "mainClass": "Switch",
+            "projectName": "javaW3_323538da"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Math",
+            "request": "launch",
+            "mainClass": "Math",
+            "projectName": "javaW3_323538da"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ThisIsAMethod",
             "request": "launch",
             "mainClass": "ThisIsAMethod",
