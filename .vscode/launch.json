@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Loop",
+            "request": "launch",
+            "mainClass": "Loop",
+            "projectName": "javaW3_323538da"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Switch",
             "request": "launch",
             "mainClass": "Switch",
