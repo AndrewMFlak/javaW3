@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PrintF",
+            "request": "launch",
+            "mainClass": "PrintF",
+            "projectName": "javaW3_323538da"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Loop",
             "request": "launch",
             "mainClass": "Loop",
