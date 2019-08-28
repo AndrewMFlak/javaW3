@@ -13,6 +13,10 @@ public class ExampleApp {
         if(!dispenser.isEmpty()) {
             System.out.println("My Pez dispenser is full!!!");
         }
+        while( dispenser.dispense()) {
+            System.out.println("Chomp!!!");
+        }
+        System.out.println("Yum!  That is some tasty Pez");
     }
 
 }
