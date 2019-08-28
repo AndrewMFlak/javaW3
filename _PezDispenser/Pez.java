@@ -2,7 +2,7 @@ class Pez {
 
     // To enter JShell in the command prompt use the command 'jshell';
     // To exit JShell from the command propmt use the command prompt '/exit'
-    public static final int MAX_BARS = 12;
+    public static final int MAX_PEZ = 12;
     final private String characterName;
     private int pezCount;
     public Pez(String characterName) {
@@ -10,11 +10,20 @@ class Pez {
         pezCount = 0;
 
     }
-    public int fill() {
-        return pezCount = MAX_BARS;
+    public void fill() {
+        pezCount = MAX_PEZ;
     }
     public boolean isEmpty() {
         return pezCount==0;
+    }
+    public boolean dispense() {
+       boolean wasDispensed = false;
+        if(!isEmpty() == false) {
+            pezCount--;
+            //boolean used to flag state change after dispensing
+            wasDispensed = true;
+        }
+        return wasDispensed;
     }
     public String getCharacterName() {
         return characterName;
