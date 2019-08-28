@@ -10,5 +10,21 @@ class Pez {
         pezCount = 0;
 
     }
+    public int fill() {
+        return pezCount = MAX_BARS;
+    }
+    public boolean isEmpty() {
+        return pezCount==0;
+    }
+    public String getCharacterName() {
+        return characterName;
+    }
 
 }
+
+
+//To Run in jshell
+//1. start 'jshell' from command prompt;
+//2. '/open Pez.java' to open file;
+//3. 'Pez pd = new Pez("some string name");'
+//   '/exit' to leave jshell
