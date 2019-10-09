@@ -6,18 +6,24 @@ public class ExampleApp {
         Pez dispenser = new Pez("Luke");
         System.out.printf("This pez dispenser character name is %s %n", dispenser.getCharacterName());
         
-        if(!dispenser.isEmpty()) {
+        if(dispenser.isEmpty()) {
             System.out.println("Dispenser is empty");
         }
-        System.out.println("Filling the dispneser with PEZ...");
+        System.out.println("Filling the dispneser with delicious PEZ...");
         dispenser.fill();
         if(!dispenser.isEmpty()) {
-            System.out.println("My Pez dispenser is full!!!");
+            System.out.println("My Pez dispenser is not EMPTY!!....Quite the opposite!  It is full");
         }
         while( dispenser.dispense()) {
-            //System.out.println("Chomp!!!");
+            System.out.println("Chomp!!!");
         }
-        System.out.println("Yum!  That is some tasty Pez");
+        if(dispenser.isEmpty()) {
+            System.out.println("Yum!  That was some tasty Pez");
+        }
+        dispenser.fill(2);
+        dispenser.fill(4);
+        while( dispenser.dispense()) {
+            System.out.println("CHOMP!!!!!!");
+        }
     }
-
 }
